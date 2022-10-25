@@ -1,0 +1,348 @@
+/* color de fondo de la pagina */
+html {
+    background-color: aqua;
+}
+/* activando Flex-Box */
+.aFlex {
+   
+    
+    margin: auto;
+    display: flex;
+    
+    
+}
+/* editando posicion del area del menu */
+.bFlex {
+    border: 3px ;
+    width: 500px;
+    height: 60px;
+    margin-left: auto;
+    display: flex;
+    position: relative;
+}
+/* posicion del menu */
+  .bHijo{
+   
+    width: 450px;
+    height: 50px;
+  }  
+/* posicion titulo principal */
+.aHijo {
+ position: relative;
+    left: 600px;
+    
+}
+/* quitando linea subrayada */
+a {
+    text-decoration: none;
+}
+/* caracteristicas del texto del menu */
+nav {
+
+    text-align: right;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* eliminando viñetas */
+li {
+    list-style-type: none;
+}
+/* orden de los elementos del menu */
+.menu {
+
+    display: inline;
+}   
+/* fijando elemento del menu, dandole color de fondo y posicionandolo */
+
+.iUno {
+    position: fixed;
+    left: 770px;
+background-color: aqua;
+    
+    /* fijando elemento del menu, dandole color de fondo y posicionandolo */
+}
+.iDos {
+    position: fixed;
+    left: 850px;
+    background-color: aqua;
+}
+/* fijando elemento del menu, dandole color de fondo y posicionandolo */
+.iTres {
+    position: fixed;
+    left: 940px;
+    background-color: aqua;
+}
+/* fijando elemento del menu, dandole color de fondo y posicionandolo */
+.iCuatro {
+    position: fixed;
+    left: 1055px;
+    background-color: aqua;
+}
+/* fijando elemento del menu, dandole color de fondo y posicionandolo */
+.iCinco {
+    position: fixed;
+    left: 1200px;
+    background-color: aqua;
+    
+}
+/* probando para verificar que no muestra nada */
+.prueba {
+    position: fixed;
+    border: 20px;
+    height: 100px;
+   display: none;
+}
+/* carateristicas del boton para subir, posicion, color de fondo, tipo de fuente y grosor de fuente */
+.boton {
+    background:#76aadb;
+	bottom:0px;
+	display: block;
+	height: 50px;
+	position: fixed;
+	right:0px;
+	width:50px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* posicion del pie de pagina */
+.footerAll {
+    position: relative;
+    left: 450px;
+}
+/* caracteristicas de imagen principal, evitando que se superponga al menu, posicionamiento */
+.imgUno {
+  position: relative;
+  background-position: center;
+  z-index: -1;
+  left: 260px;
+   
+}
+/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+#avionUno {
+    position: relative;
+    background-position: center;
+    z-index: -1;
+    left: 390px;
+}
+/* caracteristicas de parrafo, posicionamiento, alineacion de texto, mayuscula, grosor de texto, tipo de fuente, borde, grosor de borde y caracteristica de borde, box modeling */
+p {
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: black 8px dotted;
+    padding: 20px;
+    margin: 5px 15px 10px 20px;
+    padding-top: 20px;
+    border-radius: 4px;
+}
+/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+#avionDos {
+    position: relative;
+    background-position: center;
+    z-index: -1;
+    left: 370px;
+}
+/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+#avionTres {
+    position: relative;
+    background-position: center;
+    z-index: -1;
+    left: 430px;
+}
+/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+#avionCuatro {
+    position: relative;
+    background-position: center;
+    z-index: -1;
+    left: 370px;
+}
+/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+#avionCinco {
+    position: relative;
+    background-position: center;
+    z-index: -1;
+    left: 360px;
+}
+/* caracteristicas de la caja de cada imagen de ruta, borde, anchura y altura */
+.rutas {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+.rUno {
+    background-image: url(../img/madrid.jpg);
+    background-size: cover;
+    
+    
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+.rDos {
+    background-image: url(../img/Londres.jpg);
+    background-size: cover;
+    
+    
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+.rTres {
+    background-image: url(../img/Miami.jpg);
+    background-size: cover;
+    
+    
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+.rCuatro {
+    background-image: url(../img/paris.jpg);
+    background-size: cover;
+    
+    
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .rutas */
+.rCinco {
+    background-image: url(../img/tokio.jpg);
+    background-size: cover;
+    
+    
+}
+/* caracteristicas de los nombre de las rutas, alineacion de texto, mayusculas, grosor de texto, tamaño de texto, fuente, posicion */
+.nRuta {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+position: relative;
+top: 240px;
+}
+/* caracteristicas pie de pagina con mi nombre */
+.shine {
+    position: relative;
+    left: 130px;
+}
+/* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
+.empresas {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    
+}
+/* caracteristicas de los nombre de las empresas, alineacion de texto, mayusculas, grosor de texto, tamaño de texto, fuente, posicion */
+.nEmpresa {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+position: relative;
+top: 240px;
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+.eUno {
+    background-image: url(../img/qatarairways.jpg);
+    background-size: cover;
+    
+    
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+.eDos {
+    background-image: url(../img/virginaustralia.jpg);
+    background-size: cover;
+    
+    
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+.eTres {
+    background-image: url(../img/americanairlines.jpg);
+    background-size: cover;
+    
+    
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+.eCuatro {
+    background-image: url(../img/copaairlines.jpg);
+    background-size: cover;
+    
+    
+}
+/* ruta de la imagen de fondo, que cubra toda el area de .empresas */
+.eCinco {
+    background-image: url(../img/aerolineasargentinas.jpeg);
+    background-size: cover;
+    
+    
+}
+/* caracteristicas del formulario, alineacion de texto, mayusculas, grosor de texto, tamaño de texto, fuente, posicion, borde, altura, anchura */
+.formUno {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+position: relative;
+left: 280px;
+border: 1px solid black;
+    width: 800px;
+    height: 500px;
+}
+/* ruta de la imagen de fondo, que cubra toda el area del formulario y que no se superponga al menu */
+.formFondo {
+    background-image: url(../img/form.jpg);
+    background-size: cover;
+    z-index: -1;
+
+}
+/* caracteristicas del titulo del formulario */
+#formTit{
+    position: relative;
+    top: 70px  ;
+}
+/* caracteristicas del nombre en el formulario */
+#nombUno{
+    position: relative;
+    top: 70px;
+}
+/* caracteristicas del nombre en el formulario */
+#nombre{
+    position: relative;
+    left: 180px;
+    top: 70px;
+}
+/* caracteristicas del apellido en el formulario */
+#apelliUno{
+    position: relative;
+    top: 70px;
+}
+/* caracteristicas del apellido en el formulario */
+#apellido {
+    position: relative;
+    left: 170px;
+    top: 70px;
+}
+/* caracteristicas del correo en el formulario */
+#emailUno {
+    position: relative;
+    top: 70px;
+}
+/* caracteristicas del correo en el formulario */
+#email {
+    position: relative;
+    left: 85px;
+    top: 70px;
+}
+/* caracteristicas del boton enviar en el formulario */
+#submitUno{
+    position: relative;
+    top: 70px   ;
+}
+/* caracteristicas del boton restablecer en el formulario */
+#resetUno {
+    position: relative;
+    top: 70px;
+}
